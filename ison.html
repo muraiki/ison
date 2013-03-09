@@ -1,0 +1,28 @@
+<!doctype html>
+
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title>ison</title>
+    <meta name="description" content="ison is for creating and editing byzantine chant" />
+    
+    <script src="./lib/fabric-min.js"></script>
+    <script src="./fonts/BZ_Byzantina_400.font.js"></script>
+    <script src="./fonts/EZ_Omega_400.font.js"></script>
+    <script src="./ison.js"></script>
+  </head>
+  
+  <body onload="startIson()">
+    
+    <canvas id="c" width="600" height="200" style="border:1px solid #ccc"></canvas>
+    
+    <p>JSON: (you can also edit the JSON; click outside the box to update)</p>
+    <textarea id="toJson" rows="30" cols="80"></textarea>
+
+    <p>SVG: (paste this into a file and save as SVG)</p>
+    <textarea readonly id="toSvgta" rows="12" cols="80"></textarea>
+    
+  </body>
+  
+</html>
